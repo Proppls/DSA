@@ -1,0 +1,16 @@
+# Ignore executables and common build output
+*.exe
+*.out
+*.bin
+*.elf
+*.app
+*.dll
+*.so
+*.dylib
+
+# Common build directories
+/build/
+bin/
+obj/
+Debug/
+Release/
