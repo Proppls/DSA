@@ -1,0 +1,22 @@
+// User function template for C++
+class Solution {
+  public:
+    int rowWithMax1s(vector<vector<int>> &arr) {
+        // code here
+        int m = arr.size();
+        int n = arr[0].size();
+        int i= 0;
+        int j = n-1;
+        int maxi = -1;
+        while(j>=0 && i<m){
+            if(arr[i][j]==0){
+                i++;
+            }
+            else{
+                j--;
+                maxi = i;
+            }
+        }
+        return maxi;
+    }
+};

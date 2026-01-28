@@ -11,7 +11,7 @@ class Solution {
                 result.push_back(mat[top][i]);
             }
             top++;
-            for (int i = top; i <= bottom; i++) {
+   for (int i = top; i <= bottom; i++) {
                 result.push_back(mat[i][right]);
             }
             right--;
